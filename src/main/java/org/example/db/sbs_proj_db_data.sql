@@ -35,9 +35,9 @@ CREATE TABLE `article` (
 /*Data for the table `article` */
 
 insert  into `article`(`id`,`regDate`,`updateDate`,`title`,`body`,`memberId`,`boardId`) values 
-(1,'2024-04-04 00:50:22','2024-04-04 00:50:22','제목1','내용1',1,1),
-(2,'2024-04-04 00:50:22','2024-04-04 00:50:22','제목2','내용2',2,1),
-(3,'2024-04-04 00:50:22','2024-04-04 00:50:22','제목3','내용3',2,2);
+(1,'2024-04-04 11:28:50','2024-04-04 11:28:50','제목1','내용1',1,1),
+(2,'2024-04-04 11:28:50','2024-04-04 11:28:50','제목2','내용2',2,1),
+(3,'2024-04-04 11:28:50','2024-04-04 11:28:50','제목3','내용3',2,2);
 
 /*Table structure for table `articleReply` */
 
@@ -57,8 +57,8 @@ CREATE TABLE `articleReply` (
 /*Data for the table `articleReply` */
 
 insert  into `articleReply`(`id`,`regDate`,`updateDate`,`body`,`memberId`,`articleId`) values 
-(1,'2024-04-04 00:50:22','2024-04-04 00:50:22','댓글1',1,2),
-(2,'2024-04-04 00:50:22','2024-04-04 00:50:22','댓글2',2,1);
+(1,'2024-04-04 11:28:51','2024-04-04 11:28:51','댓글1',1,2),
+(2,'2024-04-04 11:28:51','2024-04-04 11:28:51','댓글2',2,1);
 
 /*Table structure for table `board` */
 
@@ -77,8 +77,8 @@ CREATE TABLE `board` (
 /*Data for the table `board` */
 
 insert  into `board`(`id`,`regDate`,`updateDate`,`code`,`name`) values 
-(1,'2024-04-04 00:50:42','2024-04-04 00:50:42','notice','공지'),
-(2,'2024-04-04 00:50:42','2024-04-04 00:50:42','free','자유');
+(1,'2024-04-04 11:28:52','2024-04-04 11:28:52','notice','공지'),
+(2,'2024-04-04 11:28:52','2024-04-04 11:28:52','free','자유');
 
 /*Table structure for table `member` */
 
@@ -98,9 +98,9 @@ CREATE TABLE `member` (
 /*Data for the table `member` */
 
 insert  into `member`(`id`,`regDate`,`updateDate`,`loginId`,`loginPw`,`name`) values 
-(1,'2024-04-04 00:50:32','2024-04-04 00:50:32','admin','admin','관리자'),
-(2,'2024-04-04 00:50:32','2024-04-04 00:50:32','user1','user1','유저1'),
-(3,'2024-04-04 00:50:32','2024-04-04 00:50:32','user2','user2','유저2');
+(1,'2024-04-04 11:28:51','2024-04-04 11:28:51','admin','admin','관리자'),
+(2,'2024-04-04 11:28:51','2024-04-04 11:28:51','user1','user1','유저1'),
+(3,'2024-04-04 11:28:51','2024-04-04 11:28:51','user2','user2','유저2');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
